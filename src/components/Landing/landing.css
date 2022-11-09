@@ -1,0 +1,33 @@
+.lpcontainer {
+  display: flex;
+   justify-content: center;
+  margin-top: 15px;
+  background-color: rgba(0, 0, 0, 0.861);
+  padding: 3%;
+  width: 30%;
+  border: 5px solid orange;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 15%;
+}
+.text{
+  font-size: xx-large;
+  color: white;
+  text-decoration: none;
+  font-family: Bungee Spice;
+  text-align: center;
+}
+.but{
+  font-family: Bungee Spice;
+        font-size: xx-large;
+        padding: 10px;;
+        margin: 20px;
+        border-radius: 30px;
+        background-color: black;
+        transition: 0.3s;
+}
+.but:hover{
+  cursor:pointer;
+  border: 2px solid darkcyan;
+  transition: 0.3s;
+}

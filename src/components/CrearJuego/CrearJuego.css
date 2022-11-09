@@ -1,0 +1,105 @@
+.main-add {
+    display: flex;
+    justify-content: center;
+}
+
+.container-add {
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+    width: 800px;
+    height: 650px;
+}
+
+.container-add h2 {
+    background-color: black;
+    width: 40%;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Bungee Spice';
+    font-size: xx-large;
+    color:black
+}
+
+.div-cont {
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    padding: 3%;
+    background-color: aquamarine;
+    width: 90%;
+}
+
+.genres-div {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width:600px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(241, 154, 22);
+}
+
+.plat-div {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width:600px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(241, 154, 22);
+}
+
+
+.container-add label {
+    font-size: large;
+    margin: 3px;
+    
+}
+
+.name{
+    width: 80%;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.dt {   
+    width: 80%;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.div-but-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.div-but-form button {
+    font-family: Bungee Spice;
+        font-size: 30px;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 30px;
+        background-color: black;
+        transition: 0.3s;
+}
+
+.div-but-form button:hover {
+    border: 2px solid darkcyan;
+}
+
+.container-add input {
+    background-color: rgb(241, 154, 22);
+}
+
+.container-add textarea {
+    background-color: rgb(241, 154, 22);
+}

@@ -1,0 +1,23 @@
+.navbar-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.76);
+}
+
+.navbar-div button{
+        font-family: Bungee Spice;
+        font-size: 30px;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 30px;
+        background-color: black;
+        transition: 0.3s;
+}
+
+.navbar-div button:hover {
+        background-color: black;
+        color:darkcyan;
+        border: 2px solid darkcyan;
+        transition: 0.3s;
+}

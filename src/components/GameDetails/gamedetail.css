@@ -1,0 +1,101 @@
+.container-detail {
+    background-image: url("../../img/landing.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+
+.details-div {
+    display:flex;
+    width: 100%;
+    height: 100%;
+    right: 20% auto;
+
+}
+
+.details-div p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.div-img {
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    width: 40%;
+}
+
+.details-div img{
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    width: 600px;
+    height: 400px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+    -webkit-text-stroke: 1px #df5e00;
+    color: black;
+    background-color: #154360;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.div-descr {
+    background-color: #707B7C    ;
+    width: 50%;
+    margin-left: 40%;
+    padding: 2%;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+
+.div-descr p {
+    display: flex;
+    justify-content: center;
+
+    color: black;
+    font-size: 20px;
+}
+
+.descripcion {
+    text-align: justify;
+}
+
+.div-descr button {
+    position: relative;
+    left: 40%;
+
+    font-family: Bungee Spice;
+    font-size: 30px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: #154360;
+    transition: 0.3s;
+}
+
+.div-descr button:hover {
+    background-color: black;
+    color: aqua;
+}
+
+.span{
+    -webkit-text-stroke: 1px #df5e00;
+    color: black;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 0px 5px 5px 5px;
+}

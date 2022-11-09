@@ -1,0 +1,23 @@
+.searchbar-div {
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.bar-btn {
+    font-family: 'Bungee Spice';
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    width: 380px;
+    background-color: black;
+    border-radius: 20px;
+    transition: 0.3s;
+    outline: none;
+}
+
+.bar-btn:hover {
+    background-color:black;
+    border: 2px solid darkcyan;
+    transition: 0.3s;
+}

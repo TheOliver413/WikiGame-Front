@@ -1,0 +1,73 @@
+.container-game { 
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #BFC9CA;
+    box-shadow: 10px 18px 17px 12px rgba(0,0,0,0.75);
+}
+
+.game-div {
+    display: flex;
+    margin: 10px;
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+    
+}
+
+.game-div img {
+    object-fit: cover;
+    width: 100%;
+    min-height: 100%;
+    border-radius: 10px;
+}
+
+.title-game {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size:x-large;
+    font-weight: bolder ;
+    -webkit-text-stroke: 0.5px #df5e00;
+    color: black;
+}
+
+.infoContGenres {
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 0.5px #df5e00;
+    color: black;
+}
+
+.infoRating {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    -webkit-text-stroke: 0.5px #df5e00;
+    color: black;
+}
+
+.div-button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.Link {
+    font-family: 'Bungee Spice';
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.Link:hover {
+    background-color: #154360;
+    transition: 0.3s;
+}
